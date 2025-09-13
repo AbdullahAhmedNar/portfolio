@@ -1,0 +1,60 @@
+{
+  "name": "abdullah-ahmed-portfolio",
+  "version": "1.0.0",
+  "description": "Modern, professional, and fully responsive personal portfolio website for Abdullah Ahmed Mohamed",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Please configure your deployment method'",
+    "serve": "python -m http.server 8000",
+    "lint:html": "htmlhint index.html",
+    "lint:css": "stylelint styles.css",
+    "lint:js": "eslint script.js",
+    "validate": "html-validate index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "full-stack-developer",
+    "mern-stack",
+    "competitive-programming",
+    "responsive-design",
+    "modern-web-design",
+    "bootstrap",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": {
+    "name": "Abdullah Ahmed Mohamed",
+    "email": "abdullahahmednar11@gmail.com",
+    "url": "https://github.com/AbdullahAhmedNar"
+  },
+  "license": "MIT",
+  "homepage": "https://abdullahahmednar.github.io/protofolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdullahAhmedNar/protofolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdullahAhmedNar/protofolio/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "eslint": "^8.48.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

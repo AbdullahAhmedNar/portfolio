@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdullah Ahmed Mohamed - Full Stack Developer specializing in MERN Stack & Competitive Programming"
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, MERN Stack, React, Node.js, JavaScript, Competitive Programming, Web Development"
+    />
+    <meta name="author" content="Abdullah Ahmed Mohamed" />
+
+    <title>Abdullah Ahmed Mohamed | Full Stack Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/images/icon-192x192.png" />
+  </head>
+  <body data-theme="dark">
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="floating-icons">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-react"></i>
+        <i class="fab fa-node-js"></i>
+        <i class="fab fa-python"></i>
+        <i class="fab fa-git-alt"></i>
+        <i class="fab fa-github"></i>
+        <i class="fas fa-database"></i>
+        <i class="fas fa-code"></i>
+        <i class="fas fa-terminal"></i>
+        <i class="fas fa-laptop-code"></i>
+        <i class="fab fa-bootstrap"></i>
+        <i class="fab fa-npm"></i>
+        <i class="fas fa-server"></i>
+        <i class="fas fa-bug"></i>
+        <i class="fas fa-cogs"></i>
+        <i class="fab fa-docker"></i>
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-mobile-alt"></i>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          <span class="brand-text">Abdullah Nar</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-social">
+            <a href="https://github.com/AbdullahAhmedNar" class="social-nav-link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abdullah-ahmed-mohamed-957748242/" class="social-nav-link" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:abdullahahmednar11@gmail.com" class="social-nav-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <button
+              class="btn nav-theme-toggle"
+              id="themeToggle"
+              type="button"
+            >
+              <i class="fas fa-code" id="themeIcon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero-section d-flex align-items-center min-vh-100"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="hero-content">
+              <div class="hero-badge mb-4">
+                <div class="badge-dot"></div>
+                <span class="badge-text">Available for Freelance Work</span>
+              </div>
+              <h1 class="hero-title mb-3">
+                Hi, I'm <span class="text-accent">Abdullah Ahmed Mohamed</span>
+              </h1>
+              <p class="hero-specialization mb-4">Full Stack Developer (MERN Stack) & Desktop Application Developer</p>
+              <div class="hero-description mb-5">
+                <p class="hero-desc-line">I craft responsive web applications where</p>
+                <p class="hero-desc-line">technologies meet creativity. Building exceptional</p>
+                <p class="hero-desc-line">digital experiences with modern full stack frameworks.</p>
+              </div>
+              <div class="hero-buttons mb-5">
+                <a href="#projects" class="btn btn-primary me-3">
+                  <span>View My Work</span>
+                  <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline-primary">
+                  <span>Contact Me</span>
+                </a>
+              </div>
+              <div class="tech-stack">
+                <p class="tech-label mb-3">Tech I work with:</p>
+                <div class="tech-tags">
+                  <span class="tech-tag">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                  </span>
+                  <span class="tech-tag">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                  </span>
+                  <span class="tech-tag">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                  </span>
+                  <span class="tech-tag">
+                    <i class="fas fa-leaf"></i>
+                    <span>MongoDB</span>
+                  </span>
+                  <span class="tech-tag">
+                    <i class="fas fa-desktop"></i>
+                    <span>Electron.js</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="hero-image text-center">
+              <div class="profile-image-container">
+                <div class="profile-image-frame">
+                  <img
+                    src="images/abd_nar.png"
+                    alt="Abdullah Ahmed Mohamed"
+                    class="profile-image"
+                  />
+                </div>
+                <div class="decorative-elements">
+                  <div class="decoration-shape shape-1">
+                    <span>&lt;/&gt;</span>
+                  </div>
+                  <div class="decoration-shape shape-2">
+                    <span>&lt;/&gt;</span>
+                  </div>
+                  <div class="decoration-shape shape-3">
+                    <i class="fas fa-hexagon"></i>
+                  </div>
+                  <div class="decoration-shape shape-4">
+                    <span>&lt;/&gt;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="about-content">
+              <h3 class="about-subtitle mb-4">Full Stack Developer (MERN Stack) & Desktop Application Developer</h3>
+              <div class="about-description">
+                <h4 class="about-greeting mb-3">Hello, I'm Abdullah Ahmed Mohamed</h4>
+                <p class="about-text mb-4">
+                  I design and develop responsive web applications that blend technology with creativity.
+                </p>
+                <p class="about-text mb-4">
+                  Passionate about crafting seamless digital experiences using modern full-stack frameworks.
+                </p>
+                <p class="about-text mb-4">
+                  Focused on delivering innovative, scalable, and user-centric solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="about-info">
+              <div class="info-card">
+                <h4 class="info-title mb-4">Personal Info</h4>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div class="info-content">
+                    <span class="info-label">Name</span>
+                    <span class="info-value">Abdullah Ahmed Mohamed</span>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="info-content">
+                    <span class="info-label">Email</span>
+                    <span class="info-value email-responsive">abdullahahmednar11@gmail.com</span>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="info-content">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">Mansoura, Egypt</span>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-search"></i>
+                  </div>
+                  <div class="info-content">
+                    <span class="info-label">Status</span>
+                    <span class="info-value">Open to opportunities</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div class="expertise-section">
+              <h4 class="expertise-title mb-4">Technical Expertise</h4>
+              <div class="expertise-tags">
+                <span class="expertise-tag">MERN Stack</span>
+                <span class="expertise-tag">Full Stack Development</span>
+                <span class="expertise-tag">React & Node.js</span>
+                <span class="expertise-tag">MongoDB & Express.js</span>
+                <span class="expertise-tag">Electron.js</span>
+                <span class="expertise-tag">Desktop Applications</span>
+                <span class="expertise-tag">JavaScript / TypeScript</span>
+                <span class="expertise-tag">Cross-Platform Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">My Skills</h2>
+            <div class="section-divider"></div>
+            <p class="skills-intro">I've worked with a variety of technologies in full-stack development. Here are some of my key areas of expertise:</p>
+          </div>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <h4 class="skill-category-title">Front-End Development</h4>
+              </div>
+              <p class="skill-category-desc">Building responsive and optimized web applications with MERN Stack and modern frameworks.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">HTML5</span>
+                <span class="skill-tag-modern">CSS3</span>
+                <span class="skill-tag-modern">JavaScript</span>
+                <span class="skill-tag-modern">React</span>
+                <span class="skill-tag-modern">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h4 class="skill-category-title">Back-End Development</h4>
+              </div>
+              <p class="skill-category-desc">Creating robust server-side applications and API integrations with MERN Stack.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">Node.js</span>
+                <span class="skill-tag-modern">Express.js</span>
+                <span class="skill-tag-modern">PHP</span>
+                <span class="skill-tag-modern">REST APIs</span>
+                <span class="skill-tag-modern">Electron.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <h4 class="skill-category-title">Database & Storage</h4>
+              </div>
+              <p class="skill-category-desc">Managing data efficiently with modern database solutions including MongoDB in MERN Stack.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">MongoDB</span>
+                <span class="skill-tag-modern">SQL</span>
+                <span class="skill-tag-modern">SQLite</span>
+                <span class="skill-tag-modern">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h4 class="skill-category-title">Programming Languages</h4>
+              </div>
+              <p class="skill-category-desc">Proficient in multiple programming languages for various applications including MERN Stack development.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">JavaScript</span>
+                <span class="skill-tag-modern">C++</span>
+                <span class="skill-tag-modern">C#</span>
+                <span class="skill-tag-modern">PHP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <h4 class="skill-category-title">Development Tools</h4>
+              </div>
+              <p class="skill-category-desc">Optimizing workflows with modern development and build tools for MERN Stack projects.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">Git</span>
+                <span class="skill-tag-modern">GitHub</span>
+                <span class="skill-tag-modern">VS Code</span>
+                <span class="skill-tag-modern">Postman</span>
+                <span class="skill-tag-modern">XAMPP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="skill-category-modern">
+              <div class="skill-category-header">
+                <div class="skill-category-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h4 class="skill-category-title">Problem Solving</h4>
+              </div>
+              <p class="skill-category-desc">Strong analytical thinking and competitive programming experience with MERN Stack development.</p>
+              <div class="skill-tags-modern">
+                <span class="skill-tag-modern">Data Structures</span>
+                <span class="skill-tag-modern">Algorithms</span>
+                <span class="skill-tag-modern">Competitive Programming</span>
+                <span class="skill-tag-modern">Codeforces</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Latest Projects</h2>
+            <div class="section-divider"></div>
+            <p class="projects-intro">A selection of featured projects I've worked on, along with other projects demonstrating my skills.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/Screenshot 2025-08-15 200513.png"
+                  alt="November Brands"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://github.com/AbdullahAhmedNar/november_brands11.git"
+                    class="btn btn-outline-light btn-sm"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i> View Code
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h5>November Brands</h5>
+                <p>
+                  Complete e-commerce platform for cosmetics and beauty products
+                  with user authentication, product management, admin panel, and
+                  secure database integration.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">PHP</span>
+                  <span class="tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/digital_learning_platforms_1155x628.jpg.webp"
+                  alt="Educational Platform"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://github.com/AbdullahAhmedNar/Educational-Platform-Web-Project.git"
+                    class="btn btn-outline-light btn-sm"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i> View Code
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h5>Educational Platform</h5>
+                <p>
+                  Complete educational web platform with course management,
+                  student enrollment, instructor dashboard, and learning
+                  management system features.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">PHP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/1600w-byf7yO6BuOA.jpg"
+                  alt="Law Office Management System"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://github.com/AbdullahAhmedNar/project_sys_final.git"
+                    class="btn btn-outline-light btn-sm"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i> View Code
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h5>Law Office Management System</h5>
+                <p>
+                  Comprehensive management system for law offices built with C#,
+                  featuring client management, case tracking, appointment
+                  scheduling, and document management.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">C#</span>
+                  <span class="tag">.NET</span>
+                  <span class="tag">Windows Forms</span>
+                  <span class="tag">SQL Server</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/Screenshot 2025-08-26 145952.png"
+                  alt="Desktop Application"
+                />
+                <div class="project-overlay">
+                  <div class="btn btn-outline-light btn-sm">
+                    <i class="fas fa-desktop"></i> Desktop App
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h5>Desktop Application (pos)</h5>
+                <p>
+                  Modern cross-platform desktop application built with Electron.js,
+                  providing a seamless user experience with native desktop features
+                  and modern web technologies.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Electron.js</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">React.js</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Tailwind CSS</span>
+                  <span class="tag">SQLite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="images/مشروع المحاسبه.png"
+                  alt="نظام المحاسبة المتكامل"
+                />
+                <div class="project-overlay">
+                  <div class="btn btn-outline-light btn-sm">
+                    <i class="fas fa-calculator"></i> Accounting System
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h5>Integrated Accounting System</h5>
+                <p>
+                  A comprehensive and integrated accounting system for managing 
+                  financial operations of any commercial establishment, built with 
+                  modern technologies and featuring an elegant, user-friendly interface.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Electron.js</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">React.js</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">SQLite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="timeline">
+              <div
+                class="timeline-item"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h5>Full Stack Development Experience with MERN Stack</h5>
+                  <span class="timeline-date">2023 - Present</span>
+                  <p>
+                    Full Stack Developer with 1+ year of practical experience through
+                    freelance projects and academic work, specializing in
+                    building modern, scalable web applications using the MERN
+                    Stack (MongoDB, Express.js, React.js, Node.js) and desktop
+                    applications with Electron.js. Experienced in both frontend
+                    and backend development with a focus on creating seamless
+                    user experiences across web and desktop platforms.
+                  </p>
+                  <ul>
+                    <li>Developed multiple full-stack web applications using MERN Stack</li>
+                    <li>Built cross-platform desktop applications with Electron.js</li>
+                    <li>Collaborated on freelance projects with clients</li>
+                    <li>Implemented responsive designs and user-friendly interfaces</li>
+                    <li>Integrated databases and APIs for dynamic functionality</li>
+                    <li>Worked with both SQL and NoSQL databases</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="timeline-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h5>Competitive Programming & Problem Solving</h5>
+                  <span class="timeline-date">2023 - Present</span>
+                  <p>
+                    Active competitive programmer since 2023, previously achieved
+                    Specialist rank on Codeforces and currently holding the
+                    Pupil rank. Participated in multiple contests organized by
+                    ICPC Mansoura, including Game of Coders. Strong foundation
+                    in algorithms and data structures with practical problem-solving
+                    experience across various programming platforms.
+                  </p>
+                  <ul>
+                    <li>Achieved Specialist rank on Codeforces platform</li>
+                    <li>
+                      Solved 500+ algorithmic problems across various platforms
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Education</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="education-content">
+                <h4>Bachelor's Degree in Computer Science</h4>
+                <h6 class="text-accent">
+                  Misr Academy for Commerce and Computers
+                </h6>
+                <span class="education-date">2023 - Present</span>
+                <p>
+                  Currently pursuing a comprehensive Computer Science degree
+                  with focus on software development, algorithms, and modern
+                  programming practices. Maintaining excellent academic
+                  performance while actively participating in programming
+                  competitions and technical projects. Specializing in MERN Stack
+                  development and desktop application development with Electron.js.
+                </p>
+                <div class="education-highlights">
+                  <span class="highlight">Software Engineering</span>
+                  <span class="highlight">Data Structures & Algorithms</span>
+                  <span class="highlight">Database Systems</span>
+                  <span class="highlight">Web Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Achievements & Activities</h2>
+            <div class="section-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h5>Codeforces Specialist</h5>
+              <p>
+                Achieved Specialist rank on Codeforces through consistent
+                problem-solving and algorithmic thinking
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h5>Web Development Courses</h5>
+              <p>
+                Completed multiple web development courses on Udemy by Jonas
+                Schmedtmann, covering HTML, CSS, JavaScript, Node.js, Next.js,
+                MongoDB, and React
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <h5>MERN Stack Certification</h5>
+              <p>
+                Obtained a MERN Stack certification through the Digital Egypt
+                Pioneers Initiative (DEPI), under the Ministry of Communications
+                and Information Technology of Egypt.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h5>Hr Member</h5>
+              <p>
+                Served as an HR member at ICPC Mansoura, managing recruitment
+                and team coordination. Contributed to organizing events and
+                enhancing participant experience in contests like Game of
+                Coders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-divider"></div>
+            <p class="lead">
+              Let's discuss your next project or collaboration opportunity
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="contact-info-horizontal">
+              <div class="row g-4">
+                <div class="col-lg-2 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                  <div class="contact-item-horizontal">
+                    <div class="contact-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <h6>Email</h6>
+                    <p>
+                      <a href="mailto:abdullahahmednar11@gmail.com"
+                        >abdullahahmednar11@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="contact-item-horizontal">
+                    <div class="contact-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <h6>Phone</h6>
+                    <p>
+                      <a href="tel:+201066209693">+20 106 620 9693</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="contact-item-horizontal">
+                    <div class="contact-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h6>Location</h6>
+                    <p>Mansoura, Dakahlia, Egypt</p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="contact-item-horizontal">
+                    <div class="contact-icon">
+                      <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h6>LinkedIn</h6>
+                    <p>
+                      <a
+                        href="https://www.linkedin.com/in/abdullah-ahmed-mohamed"
+                        target="_blank"
+                        >Connect with me</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="contact-item-horizontal">
+                    <div class="contact-icon">
+                      <i class="fab fa-github"></i>
+                    </div>
+                    <h6>GitHub</h6>
+                    <p>
+                      <a
+                        href="https://github.com/AbdullahAhmedNar"
+                        target="_blank"
+                        >View my repositories</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">
+              &copy; 2025 Abdullah Ahmed Mohamed. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div class="footer-social">
+              <a
+                href="https://www.linkedin.com/in/abdullah-ahmed-mohamed"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/AbdullahAhmedNar" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="mailto:abdullahahmednar11@gmail.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <a href="https://codeforces.com/profile/abd_nar" target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
